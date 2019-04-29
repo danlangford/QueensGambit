@@ -19,5 +19,14 @@ public class QueensGambit : ModuleRules
 		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
 
 		// To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
+        
+        
+        // Following: https://wiki.unrealengine.com/Steam,_Using_the_Steam_SDK_During_Development
+        PublicDependencyModuleNames.AddRange(new string[] {
+            "OnlineSubsystem",
+            "OnlineSubsystemUtils"
+        });
+        DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
+
 	}
 }
