@@ -24,7 +24,8 @@ public class QueensGambit : ModuleRules
         // Following: https://wiki.unrealengine.com/Steam,_Using_the_Steam_SDK_During_Development
         PublicDependencyModuleNames.AddRange(new string[] {
             "OnlineSubsystem",
-            "OnlineSubsystemUtils"
+            "OnlineSubsystemUtils",
+            "Steamworks"
         });
         DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
 
