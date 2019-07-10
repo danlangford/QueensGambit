@@ -7,20 +7,7 @@
 		{
 			"Name": "QueensGambit",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "OnlineSubsystemSteam",
-			"Enabled": true
-		},
-		{
-			"Name": "SteamController",
-			"Enabled": true
+			"LoadingPhase": "Default"
 		}
 	]
 }

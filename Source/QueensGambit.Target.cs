@@ -10,8 +10,5 @@ public class QueensGambitTarget : TargetRules
 		Type = TargetType.Game;
 
 		ExtraModuleNames.AddRange( new string[] { "QueensGambit" } );
-        
-        // Folowing: https://wiki.unrealengine.com/Steam,_Using_the_Steam_SDK_During_Development
-        bUsesSteam = true;
 	}
 }
